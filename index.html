@@ -1,176 +1,14 @@
-<html lang="en"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Mind Haven</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 
-    <title>The Mind Haven</title>
-    <style>/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: rgb(var(--bs-tertiary-color-rgb));
-}
-
-a{
-    color: black;
-}
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 32rem;
-}
-
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-/* rtl:end:ignore */
-
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-/* rtl:begin:remove */
-.featurette-heading {
-  letter-spacing: -.05rem;
-}
-
-/* rtl:end:remove */
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
-@media (min-width: 40em) {
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-}
-.bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }</style>
-  </head>
-  <body style="
-    background-color: #FFB4B0;
+<body style="
+    background: #deb3ad;
 ">
-    <div class="container" style="
+        <div class="container" style="
 ">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="
     border-color: black!important;
@@ -196,39 +34,47 @@ a{
 ">
       <div class="carousel-indicators" style="
 ">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item x" style="
-    background-size: cover;
-    height: 32rem;
+      <div class="carousel-inner" style="
+    color: black;
 ">
-          <div class="carousel-caption">
-            <h1>Find upcoming conferences!</h1>
-            <p class="opacity-75">Commit-Tea has the list of all the great upcoming conferences. The list will be out very soon. Add your conference to our evergrowing list!</p>
+        <div class="carousel-item x active" style="
+    background-size: cover;
+    height: 24rem;
+">
+          <div class="carousel-caption" style="
+    color: black;
+">
+            <h1>Future plans of TMH</h1>
+            <p class="opacity-75">TMH focuses on eradicating mental health issues and fostering a mentally healthy population from all around the country. Until now, they have hosted a Write-Away Competition encouraging writers of all age groups to send in their creative pieces and win exciting prizes. They have also set up a collaboration with Verizon MUN and set up the committee-WHO which has an agenda related to mental health.</p>
             <p><a class="btn btn-lg btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSemIjuPcnMkKWXyoPFtt7pHVRJEY5Qx6rEXeYUffc3VYU7WiQ/viewform?usp=sf_link">Collaborate with us!</a></p>
           </div>
         </div>
-        <div class="carousel-item x" style="background-size: cover;height: 32rem;">
-          <div class="carousel-caption">
-            <h1>Welcome to Commit-Tea.org! </h1>
-            <p>Brewing new conferences and building your one stop solution to everything.</p>
+        <div class="carousel-item x" style="background-size: cover;height: 24rem;">
+          <div class="carousel-caption" style="color: black;">
+            <h1>What is the Mind Haven?</h1>
+            <p>The Mind Haven is an established NGO that focuses on metamorphosing mental healthcare into a more accessible facility. It aims to break down the stigma and societal norms surrounding mental health. </p>
             <p><a class="btn btn-lg btn-primary" href="https://www.instagram.com/committeaorg">Follow us on Instagram!</a></p>
           </div>
         </div>
-        <div class="carousel-item x active" style="
-    background: green;
+        <div class="carousel-item x" style="
+    background: #deb3ad;
     background-size: cover;
-    height: 32rem;
+    height: 24rem;
 ">
           <div class="carousel-caption" style="
     z-index: 10;
     bottom: 3rem;
 ">
-            <h1>Welcome to the Mind Haven</h1>
-            <p>Specially curated by a team of several copywriters and editorship of well-regarded EBs, catered exceptionally for the Indian Circuit.</p>
+            <h1 style="
+    color: black;
+">Welcome to the Mind Heaven</h1>
+            <p style="
+    color: black;
+">The Mind Haven operates as an online NGO, allowing people from all corners of the world to reach a broader audience and provide support through virtual platforms. This allows diverse communities to access the platform without a single hesitation</p>
             <p><a class="btn btn-lg btn-primary" href="resources.html">Browse resource section</a></p>
           </div>
         </div>
@@ -251,14 +97,15 @@ a{
 ">
           <div class=" bg-body-tertiary rounded-3" style="/* padding-right: 1.5rem; *//* padding-left: 1.5rem; */">
       <div class="container-fluid py-5" style="
+    background: #deb3ad;
     /* text-align: center; */
 ">
-        <h1 class="display-5 fw-bold" style="font-size: 2.8rem;">Welcome to The Mind Haven!</h1>
+        <h1 class="display-5 fw-bold" style="font-size: 2.8rem;">Welcome to The Mind Heaven!</h1>
         <p class="col-md-8 fs-4 lead" style="max-width: 100%;padding-left: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed placerat elit, id volutpat metus. Fusce rhoncus vel eros ornare scelerisque. In interdum laoreet scelerisque. Donec et lorem feugiat, sagittis ex at, egestas metus. Integer porttitor id neque non malesuada. Aliquam nec feugiat lorem. Vestibulum vulputate tempus massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras vestibulum, lacus eu volutpat vehicula, ex mauris volutpat metus, a hendrerit neque sem et justo. Curabitur vehicula pulvinar sapien, sed consectetur ipsum faucibus eu. Etiam nec neque velit. Sed porta sem eu nisi pretium, eget auctor tellus eleifend. Vestibulum eget ante ut mauris sollicitudin molestie a vel lorem. Sed scelerisque ultrices odio, in fermentum lorem. Etiam sit amet quam ut neque hendrerit laoreet malesuada.</p>
         <button class="btn btn-primary btn-lg" type="button">View our Instagram!</button>
       </div>
     </div>
-    <div class="container col-xxl-8 py-5" style="
+    <div class="container py-5" style="
     padding-top: 0 !important;
 ">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -286,7 +133,7 @@ value of Mental Health.</p>
     <div class="container px-4 py-5" id="hanging-icons">
     <h2 class="pb-2 border-bottom" style="
     border-color: black!important;
-">Services and Programmes of The Mind Haven</h2>
+">Services and Programmes of The Mind Heaven</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="col d-flex align-items-start">
         <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
@@ -326,10 +173,13 @@ value of Mental Health.</p>
       </div>
     </div>
   </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    
+    
+    
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  
+
 
 
 
